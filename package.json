@@ -1,0 +1,32 @@
+{
+  "name": "test_bot",
+  "version": "1.0.0",
+  "description": "savers test bot",
+  "main": "src\\index.js",
+  "dependencies": {
+    "@discordjs/builders": "^1.0.0",
+    "@discordjs/rest": "^1.0.0",
+    "discord-api-types": "^0.36.2",
+    "discord.js": "^14.0.2",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.20.0",
+    "mongodb": "^4.8.0",
+    "node": "^18.5.0",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node src/deploy-commands.js && eslint . && node src/index.js",
+    "dev": "node src/deploy-commands.js && eslint . && nodemon src/index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Savers-Side-Code/Savers-testing-bot.git"
+  },
+  "author": "Savers123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Savers-Side-Code/Savers-testing-bot/issues"
+  },
+  "homepage": "https://github.com/Savers-Side-Code/Savers-testing-bot#readme"
+}
