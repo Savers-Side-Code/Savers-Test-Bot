@@ -4,10 +4,9 @@
   "description": "savers test bot",
   "main": "src\\index.js",
   "dependencies": {
-    "@discordjs/builders": "^1.0.0",
     "@discordjs/rest": "^1.0.0",
     "discord-api-types": "^0.36.2",
-    "discord.js": "^14.0.2",
+    "discord.js": "^14.3.0",
     "dotenv": "^16.0.1",
     "eslint": "^8.20.0",
     "mongodb": "^4.8.0",
@@ -15,8 +14,8 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "start": "node src/deploy-commands.js && eslint . && node src/index.js",
-    "dev": "node src/deploy-commands.js && eslint . && nodemon src/index.js",
+    "start": "node src/deploy.js && eslint . && node src/index.js",
+    "dev": "node src/deploy.js && eslint . && nodemon src/index.js",
     "lint": "eslint ."
   },
   "repository": {
