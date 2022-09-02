@@ -1,4 +1,5 @@
 const { mongo } = require('./index.js');
+const mongoDB = mongo.db('main');
 module.exports = {
   /**
    * Checks whether a specified user is a bot admin

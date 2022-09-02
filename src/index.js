@@ -9,8 +9,6 @@ const {
   ActivityType,
 } = require('discord.js');
 require('dotenv').config();
-// const { } = require('./constants.js');
-const functions = require('./functions');
 
 // Database Related
 const Mongo = require('mongodb');
